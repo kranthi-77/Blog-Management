@@ -1,0 +1,27 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore logs and cache
+logs/
+*.log
+debug.log
+yarn-error.log
+*.pid
+*.seed
+
+# Ignore build files
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
